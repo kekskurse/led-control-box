@@ -11,7 +11,7 @@
 #include "RGBdriver.h"
 #define CIN 3//pins definitions for the driver        
 #define DIN 2
-RGBdriver Driver(D6,D5);
+RGBdriver Driver(CIN,DIN);
 
 void setup()  
 { 
